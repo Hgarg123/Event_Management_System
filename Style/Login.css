@@ -62,28 +62,26 @@ section.sec-2 {
     border-radius: 15px;
 }
 
-.middle button.btn1 {
-    display: block;
-    color: seagreen;
-    padding: 10px;
-    margin-top: 10px;
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-}
-
 .middle button.btn2 {
     width: 100%;
     margin-top: 15px;
     text-decoration: none;
 }
 
-.middle button.btn1:hover {
-    color: grey
+.middle a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: seagreen;
+    text-decoration: none;
 }
 
 .middle button.btn2:hover {
     background-color: darkcyan;
+}
+
+.middle a:hover {
+    color: lightseagreen;
 }
 
 @media(max-width:789px) {
@@ -104,7 +102,6 @@ section.sec-2 {
         width: 70%;
         margin: auto;
         display: block;
-        padding: 20px;
     }
     .middle h2 {
         text-align: center;
@@ -136,18 +133,23 @@ section.sec-2 {
         border: 2px solid seagreen;
         border-radius: 15px;
     }
-    .middle button.btn1 {
-        display: block;
-        color: seagreen;
-        padding: 10px;
-        margin-top: 10px;
-        text-decoration: none;
-        border: none;
-        background-color: transparent;
-    }
     .middle button.btn2 {
         width: 100%;
         margin-top: 15px;
+        text-decoration: none;
+    }
+    .middle a {
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+        color: seagreen;
+        text-decoration: none;
+    }
+    .middle button.btn2:hover {
+        background-color: darkcyan;
+    }
+    .middle a:hover {
+        color: lightseagreen;
     }
 }
 
@@ -169,16 +171,15 @@ section.sec-2 {
         width: 100%;
         margin: auto;
         display: block;
-        padding: 10px;
+        padding: 15px;
     }
     .middle h2 {
         text-align: center;
         color: darkgreen;
         margin-top: 30px;
-        padding: 15px;
+        padding: 20px;
         font-weight: bold;
         letter-spacing: 3px;
-        font-size: 25px;
     }
     .form label {
         display: block;
@@ -202,17 +203,22 @@ section.sec-2 {
         border: 2px solid seagreen;
         border-radius: 15px;
     }
-    .middle button.btn1 {
-        display: block;
-        color: seagreen;
-        padding: 10px;
-        margin-top: 10px;
-        text-decoration: none;
-        border: none;
-        background-color: transparent;
-    }
     .middle button.btn2 {
         width: 100%;
         margin-top: 15px;
+        text-decoration: none;
+    }
+    .middle a {
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+        color: seagreen;
+        text-decoration: none;
+    }
+    .middle button.btn2:hover {
+        background-color: darkcyan;
+    }
+    .middle a:hover {
+        color: lightseagreen;
     }
 }
