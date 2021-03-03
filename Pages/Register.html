@@ -5,38 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Style/Login.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Register Me</title>
+    <link rel="stylesheet" href="../Style/Register.css">
     <link rel="stylesheet" href="../Style/indexFooter.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Login to your account</title>
 </head>
 
 <body>
     <header>
-        <h1>Elevated Event Management Ltd</h1>
+        <h1 class="title">Elevated Event Management Ltd</h1>
     </header>
     <div class="middle">
-        <h2>Login to Your Account</h2>
+        <h2>Register Yourself</h2>
         <form action="" class="form">
-            <div class="form1">
-                <label for="user">Username</label>
-                <input type="text" name="" id="user" placeholder="Enter Your Username">
-            </div>
-            <div class="form1">
-                <label for="pwd">Password</label>
-                <input type="password" name="" id="pwd" placeholder="Enter Your Password">
-            </div>
-        </form>
-        <button class="btn btn1">Forgot Password?</button>
-        <button class="btn btn1">Dont't have Account?</button>
-        <button class="btn btn-success btn2">Success</button>
-
+            <input type="text" name="" id="txt" placeholder="Enter Username">
+            <input type="email" name="" id="email" placeholder="Enter Email">
+            <input type="text" name="" id="number" placeholder="Enter Number">
+            <input type="password" name="" id="pwd" placeholder="Enter Password">
+            <input type="password" name="" id="pwd1" placeholder="Confirm Password">
+            <button class="btn btn-success submitbtn mt-2">Submit</button>
     </div>
-
-
-
-
+    </form>
+    </div>
     <footer>
         <section class="sec-1">
             <section class="about">
@@ -76,12 +67,13 @@
                 </ul>
             </section>
         </section>
-        <!-- <hr width="100%" noshade> -->
+
+        <hr width="100%" noshade>
         <section class="sec-2">
             <p>Start your Booking Now..</p>
             <a href="./Pages/AdminOrCust.html">SignIn</a>
         </section>
-        <hr width="100%" noshade>
+        <!-- <hr width="100%" noshade> -->
         <section class="sec-3">
             <ul>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -95,9 +87,11 @@
             <p>
                 Copyrights &copy 2020 All Rights Reserved By
                 <a href="#">Elevated Event Management Ltd</a>
+
             </p>
         </section>
     </footer>
+
 </body>
 
 </html>
