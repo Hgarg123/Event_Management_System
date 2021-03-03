@@ -67,11 +67,19 @@ section.sec-2 {
     color: seagreen;
     padding: 10px;
     margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
 }
 
 .middle button.btn2 {
     width: 100%;
     margin-top: 15px;
+    text-decoration: none;
+}
+
+.middle button.btn1:hover {
+    color: grey
 }
 
 .middle button.btn2:hover {
@@ -133,6 +141,9 @@ section.sec-2 {
         color: seagreen;
         padding: 10px;
         margin-top: 10px;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
     }
     .middle button.btn2 {
         width: 100%;
@@ -196,6 +207,9 @@ section.sec-2 {
         color: seagreen;
         padding: 10px;
         margin-top: 10px;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
     }
     .middle button.btn2 {
         width: 100%;
