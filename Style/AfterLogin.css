@@ -6,11 +6,38 @@
     font-family: 'Archivo', sans-serif;
 }
 
-.title {
-    margin-left: 40px;
+a.title {
+    /* margin-left: -10px; */
     font-weight: bold;
     text-transform: uppercase;
     color: gray;
     /* margin-top: 20px; */
+    font-size: 35px;
     letter-spacing: 3.5px;
+}
+
+.navbar ul li {
+    margin: 15px;
+}
+
+.navbar ul li .li-link {
+    position: relative;
+    color: grey;
+}
+
+.navbar ul li .li-link:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li .li-link:hover:before {
+    visibility: visible;
+    width: 100%;
 }
