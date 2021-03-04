@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Archivo', sans-serif;
 }
 
-header h1 {
-    text-align: center;
+.title {
+    margin-left: 40px;
     font-weight: bold;
     text-transform: uppercase;
     color: gray;
-    /* margin-left: 60px; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     letter-spacing: 3.5px;
-    /* float: left; */
 }
