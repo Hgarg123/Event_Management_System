@@ -62,13 +62,27 @@ section.sec-2 {
     border-radius: 15px;
 }
 
-.middle button.btn2 {
-    width: 100%;
+.middle a.link2 {
+    width: 50%;
     margin-top: 15px;
     text-decoration: none;
+    background-color: green;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
-.middle a {
+.middle a.link2:hover {
+    color: white;
+    background-color: #151518c4;
+}
+
+.middle a.link1 {
     display: block;
     padding: 10px;
     font-size: 20px;
