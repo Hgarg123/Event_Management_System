@@ -70,7 +70,7 @@ section.sec-2 {
     margin-bottom: 35px;
 }
 
-.ml12 {
+.ml12, .ml11 {
     font-weight: 200;
     font-size: 1.8em;
     text-transform: uppercase;
@@ -91,4 +91,58 @@ section.sec-2 {
     position: absolute;
     top: 35%;
     left: 23%;
+}
+
+.carousel-img1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+@media(max-width:970px) {
+    .carousel-img {
+        position: absolute;
+        top: 35%;
+        left: 17%;
+    }
+    .carousel-img1 {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+}
+
+@media(max-width:450px) {
+    .ml12, .ml11 {
+        font-weight: 200;
+        font-size: 1.6em;
+    }
+    .carousel-img {
+        position: absolute;
+        top: 35%;
+        left: 14%;
+    }
+    .carousel-img1 {
+        position: absolute;
+        top: 30%;
+        left: 12%;
+    }
+}
+
+@media(max-width:365px) {
+    .carousel-img {
+        left: 10;
+    }
+    .carousel-img1 {
+        left: 10;
+    }
+    .ml11, .ml12 {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:322px) {
+    .ml11, .ml12 {
+        font-size: 1.2em;
+    }
 }
