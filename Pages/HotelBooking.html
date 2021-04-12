@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="../Style/AfterLogin.css">
+    <title>Book Hotel</title>
+    <link rel="stylesheet" href="../Style/Hotelbooking.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Style/indexFooter.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -42,76 +43,80 @@
                             <a class="nav-link li-link" href="../Pages/About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link li-link" href="../Pages/ContactUs.html">Contact-Us</a>
+                            <a class="nav-link li-link" href="#">Contact-Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="heading-2">
-            <h1>What you want to book?</h1>
-            <h2>We are Here to serve you..!!</h2>
+        <div class="content">
+            <h1>Book Your Venue With Details</h1>
             <hr id="hr-1">
+            <img src="../Images/award.jpg" alt="">
         </div>
-        <div class="row ">
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/birthday1.jpg" alt="">
-                <h3>Birthday Party</h3>
-                <a href="../Pages/BirthdayHotels.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/wedding1.jpg" alt="">
-                <h3>Wedding</h3>
-                <a href="../Pages/WeddingHotels.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/reception.jpg" alt="">
-                <h3>Reception Ceremony</h3>
-                <a href="../Pages/ReceptionCeremonyHotel.html" class="link-hotel">Search for Halls</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/cocktail1.jpg" alt="">
-                <h3>Cocktail Dinner</h3>
-                <a href="../Pages/CocktailHotel.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/conference-hall.jpg" alt="">
-                <h3>Conference Halls</h3>
-                <a href="../Pages/ConferenceHall.html" class="link-hotel">Search for Halls</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/kitty.jpg" alt="">
-                <h3>Kitty Party</h3>
-                <a href="../Pages/KittyParty.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/candlelight1.jpg" alt="">
-                <h3>Candle-Light Dinner</h3>
-                <a href="../Pages/CandleLight.html" class="link-hotel">Search for Tables</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/wedding anniversary.jpg" alt="">
-                <h3>Anniversary </h3>
-                <a href="../Pages/Anniversary.html" class="link-hotel">Search for Halls</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/bachleor.jpg" alt="">
-                <h3>Bachelor Party</h3>
-                <a href="../Pages/BachelorParty.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/poolParty.jpg" alt="">
-                <h3>Pool Party</h3>
-                <a href="../Pages/Poolparty.html" class="link-hotel">Search for Hotels</a>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 col-12 section-1">
-                <img src="../Images/musical.jpg" alt="">
-                <h3>Musical Concert</h3>
-                <a href="../Pages/MusicalConcert.html" class="link-hotel">Search for Events</a>
-            </div>
+        <div class="content-2">
+            <form action="" class="">
+                <div class="form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name form1" placeholder="Your Name">
+                </div>
+                <div class="form">
+                    <label for="phone">Phone Number </label>
+                    <input type="text" name="phone" id="phone form1" placeholder="Your Phone Number">
+                </div>
+                <div class="form">
+                    <label for="emaik">Email Address</label>
+                    <input type="email" name="email" id="email form1" placeholder="Email Address">
+                </div>
+                <div class="form">
+                    <label for="event-type">Event Type:</label>
+                    <select name="event-type" id="event-type form2">
+                        <option value="Birthday">Birthday</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label for="event-palace">Event Palace:</label>
+                    <select name="event-palace" id="event-palace">
+                        <option value="Birthday">Fatehabaad, Agra</option>
+                    </select>
+                </div>
+                <div class="radio">
+                    <label for="food">Select Food Type: </label>
+                    <input type="radio" name="food" id="food">Veg<br>
+                    <input type="radio" name="food" id="food">Non Veg<br>
+                    <input type="radio" name="food" id="food">Veg + Non Veg
+                </div>
+                <div class="radio">
+                    <label for="food-type">Lunch & Dinner Type</label>
+                    <input type="radio" name="food-type" id="food">Normal<br>
+                    <input type="radio" name="food-type" id="food">Deluxe<br>
+                    <input type="radio" name="food-type" id="food">Royal
+                </div>
+                <div class="form">
+                    <label for="guest">Number of Guest</label>
+                    <input list="guest" name="guest">
+                    <datalist id="guest">
+                        <option value="Upto 50">
+                        <option value="Upto 100">
+                        <option value="Upto 150">
+                        <option value="Upto 250">
+                        <option value="Upto 350">
+                        <option value="Upto 450">
+                        <option value="Upto 500">
+                    </datalist>
+                </div>
+                <div class="form">
+                    <label for="from-date">Event Date </label>
+                    <input type="date" name="dateControl" id="dateControl">
+                </div>
+                <div class="price">
+                    <h4>Your Total Price :</h4>
+                    <h4>Rs. 6000</h4>
+                </div>
+                <a href="#" class="btn btn-outline-success  d-block w-50 m-auto">Book With Payment</a>
+            </form>
         </div>
-
         <footer>
             <section class="sec-1">
                 <section class="about">
@@ -176,12 +181,28 @@
             </section>
         </footer>
     </div>
+    <script>
+        $(document).ready(function () {
+            var dtToday = new Date();
+            var month = dtToday.getMonth() + 1;
+            var day = dtToday.getDate();
+            var year = dtToday.getFullYear();
+            if (month < 10)
+                month = '0' + month.toString();
+            if (day < 10)
+                day = '0' + date.toString();
+            var maxDate = year + '-' + month + '-' + day
+            $('#dateControl').attr('min', maxDate);
+            console.log(dtToday);
 
-
+        })
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <!-- <script src="bootstrap.bundle.min.js / bootstrap.bundle.js "></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap.bundle.min.js / bootstrap.bundle.js "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

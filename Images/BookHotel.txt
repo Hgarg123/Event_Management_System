@@ -1,0 +1,25 @@
+heaading-> Book your venue
+img of hotel
+Phone number
+Name
+Address
+Email
+Booking id
+Event type
+Event palace
+
+Food--> multi choice-->Breakfast Dinner Tea and Sneaks Dinner
+Radio option--> only veg and Veg and non veg
+Selective Option--> Lunch Type-->Normal Deluxe, Royal 
+Dinner Type
+
+Np of guest
+Date to and from
+time to to from
+
+total Price-->
+
+book with payment
+
+
+
