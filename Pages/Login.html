@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../Style/indexFooter.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Style/TogglePassword.css">
     <title>Login to your account</title>
 </head>
 
@@ -26,6 +27,12 @@
             <div class="form1">
                 <label for="pwd">Password</label>
                 <input type="password" name="" id="pwd" placeholder="Enter Your Password">
+            </div>
+            <div class="toggle-pwd">
+                <label for="toggle">
+                    <input type="checkbox" onclick="myFunction()" id="toggle">
+                    <p>Show Password</p>
+                </label>
             </div>
         </form>
 
@@ -101,6 +108,7 @@
             alert("Login Success")
         }
     </script>
+    <script src="../JavaScript/TogglePassword.js"></script>
 </body>
 
 </html>
